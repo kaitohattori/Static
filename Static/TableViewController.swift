@@ -1,4 +1,4 @@
-import UIKit
+ import UIKit
 
 /// Table view controller with a `DataSource` setup to use its `tableView`.
 open class TableViewController: UIViewController {

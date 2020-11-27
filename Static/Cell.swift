@@ -21,5 +21,8 @@ extension Cell where Self: UITableViewCell {
         imageView?.image = row.image
         accessoryType = row.accessory.type
         accessoryView = row.accessory.view
+        textLabel?.textColor = .white
+        detailTextLabel?.textColor = .lightGray
+        backgroundColor = UIColor(white: 0.08, alpha: 1.0)
     }
 }
